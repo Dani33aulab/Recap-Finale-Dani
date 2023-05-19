@@ -7,6 +7,8 @@
 
 @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+@livewireStyles
+
     <title>My Library</title>
 </head>
 <body>
@@ -22,6 +24,7 @@
 
     <x-footer />
 
+    @livewireScripts
     
 </body>
 </html>
